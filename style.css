@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background: blueviolet;
+    color: white;
+}
+.btns{
+    margin: 20px 10px;
+    margin-left: 40%;
+}
+.btns button{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+table tr th {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #c000ff;
+}
+
+table tr td {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr {
+    background-color: rgba(223, 17, 178, 0.329);
+}
+table tr:hover {
+    background-color: #c000ff;
+}
+table tr:nth-child(odd) {
+    background-color: #ffccff;
+}
+table tr:hover:nth-child(odd) {
+    background-color:#c000ff;
+}
+
+table tr td a {
+    display: block;
+    text-decoration: none;
+    color: rgb(43, 55, 226);
+    font-weight: bold;
+}
+
+table tr td a:visited {
+    color: black;
+}
+
+table tr td a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: blueviolet;
+    color: white;
+}
+#practicalbtn{
+    background-color:#ffccff;
+}
+#lecturebtn{
+    padding: 10px 5%;
+}
+#Lecture{display: block;}
+#Practicals{display: none;}
+.lists{
+    overflow: auto;
+}
